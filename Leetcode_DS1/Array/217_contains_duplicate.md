@@ -1,19 +1,6 @@
-# Header 1
-## Header 2
-### Header 3
-Hello World!
+## #217 Contains Duplicate
 
-*Hello in italics*
-
-**Hello in bold**
-
-1. anlfa
-2. akfnlasn
-3. afnaln
-
-Nested List
-- Point 1
-- Point 2
-  - Subpoint 2.1
-
-![](Images/abc.png)
+### Approach 1
+1. Sort the vector.
+2. Traverse through the vector and find if two consecutive elements are same.
+3. If yes, return True. Else, return false.
